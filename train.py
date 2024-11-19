@@ -29,7 +29,7 @@ from torch.autograd import Variable
 
 parser = ArgumentParser()
 parser.add_argument("--resume", type=str,
-                    dest="resume", default='../stable-diffusion/logs/2024-07-07T23-22-44_casmus-ldm-vq16-64ch/checkpoints/epoch=000682.ckpt',
+                    dest="resume", default='your/trained/ldm/checkpoint/path',
                     help="pretrained model")
 parser.add_argument("--lr", type=float,
                     dest="lr", default=1e-4, help="learning rate")
@@ -46,7 +46,7 @@ parser.add_argument("--checkpoint", type=int,
                     help="frequency of saving models")
 parser.add_argument("--datapath", type=str,
                     dest="datapath",
-                    default='../../../data/CAMUS/org/',
+                    default='our/training/data/path',
                     help="data path for training images") 
 parser.add_argument("--beta", type=float,
                     dest="beta", 

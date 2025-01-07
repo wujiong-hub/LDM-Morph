@@ -8,7 +8,6 @@ dependencies:
   - python=3.8.5
   - pip=20.3
   - numpy=1.24.4
-  pytorch-cuda-12.1-ha16c6d3_5.tar.bz2
   - pytorch=2.1.0=py3.8_cuda12.1_cudnn8.9.2_0
   - pytorch-cuda=12.1=ha16c6d3_5
   - pytorch-mutex=1.0=cuda

@@ -1,12 +1,9 @@
 name: ldmmorph
 channels:
-  - pytorch
   - defaults
 dependencies:
   - python=3.8.5
   - pip=20.3
-  - pytorch=2.1.0+cu121
-  - torchvision=0.16.0+cu121
   - numpy=1.24.4
   - pip:
     - albumentations==1.4.14

@@ -10,6 +10,7 @@ dependencies:
   - numpy=1.24.4
   - pytorch=2.1.0=py3.8_cuda12.1_cudnn8.9.2_0
   - pytorch-cuda=12.1=ha16c6d3_5
+  - torchvision=0.16.0=py38_cu121
   - pytorch-mutex=1.0=cuda
   - pip:
     - albumentations==1.4.14

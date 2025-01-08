@@ -1,8 +1,5 @@
-opencv-python==4.10.0.84
-pudb==2019.2
-imageio>=2.11.0
-imageio-ffmpeg==0.4.2
-pytorch-lightning==2.0.0
+pytorch-lightning==1.4.0
+
 omegaconf==2.1.1
 nibabel==5.2.1
 natsort==8.4.0

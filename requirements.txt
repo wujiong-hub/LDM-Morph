@@ -3,8 +3,10 @@ torchmetrics==0.6.0
 omegaconf==2.1.1
 einops>=0.8.0
 nibabel
-natsort
+natsort==8.4.0
+pystrum==0.4
 test-tube>=0.7.5
+
 -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 
 streamlit>=0.73.1

@@ -1,12 +1,11 @@
 pytorch-lightning==1.4.0
 torchmetrics==0.6.0
-omegaconf==2.0.0
-einops
-
-nibabel==5.2.1
-natsort==8.4.0
-torchmetrics==0.6.0
+omegaconf==2.1.1
+einops>=0.8.0
+nibabel
+natsort
 test-tube>=0.7.5
+
 streamlit>=0.73.1
 einops==0.3.0
 torch-fidelity==0.3.0

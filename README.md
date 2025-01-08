@@ -16,7 +16,7 @@ This repository is the official implementation for the paper:
 Below is an example of the core results or architecture from our paper:
 
 <p align="center">
-  <img src="documents/fig1_architecture.pdf" alt="Figure 1 Overview" width="600">
+  <img src="documents/fig1_architecture.png" alt="Figure 1 Overview" width="600">
   <br>
   <em>Figure 1. Overview of the proposed deformable registration framework (LDM-Morph).</em>
 </p>

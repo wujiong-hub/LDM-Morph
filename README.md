@@ -21,14 +21,7 @@ This repository is the official implementation for the paper:
 
 ## Environment
 
-conda create -n universalmodel python=3.7
-conda activate universalmodel
-pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113 
-## please modify according to the CUDA version in your server
-pip install 'monai[all]'
-pip install -r requirements.txt
-cd pretrained_weights/
-wget https://huggingface.co/ljwztc/CLIP-Driven-Universal-Model/resolve/main/clip_driven_universal_swin_unetr.pth?download=true
-cd ../
-python pred_pseudo.py --data_root_path PATH_TO_IMG_DIR --result_save_path PATH_TO_result_DIR --resume ./pretrained_weights/clip_driven_universal_swin_unetr.pth
-## For example: python pred_pseudo.py --data_root_path /home/data/ct/ --result_save_path /home/data/result --resume ./pretrained_weights/clip_driven_universal_swin_unetr.pth
+> conda create -n ldmmorph python=3.8
+> conda activate ldmmorph
+> conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch
+

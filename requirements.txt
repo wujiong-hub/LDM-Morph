@@ -1,6 +1,8 @@
 pytorch-lightning==1.4.0
+torchmetrics==0.6.0
+omegaconf==2.0.0
+einops
 
-omegaconf==2.1.1
 nibabel==5.2.1
 natsort==8.4.0
 torchmetrics==0.6.0

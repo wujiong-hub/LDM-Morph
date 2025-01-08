@@ -10,9 +10,8 @@ This repository is the official implementation for the paper:
 **[LDM-Morph: Latent diffusion model guided deformable image registration](https://arxiv.org/pdf/2411.15426)**  
 *Authors: Jiong Wu and Kuang Gong*
 
-> *Published on arXiv: 2024-11-23*  
-> Abstract: Deformable image registration plays an essential role in various medical image tasks. Existing deep learning-based deformable
-registration frameworks primarily utilize convolutional neural networks (CNNs) or Transformers to learn features to predict the
+> Abstract: Deformable image registration plays an essential role in various medical image tasks. Existing deep learning-based
+> deformable registration frameworks primarily utilize convolutional neural networks (CNNs) or Transformers to learn features to predict the
 deformations. However, the lack of semantic information in the learned features limits the registration performance. Furthermore,
 the similarity metric of the loss function is often evaluated only in the pixel space, which ignores the matching of high-level
 anatomical features and can lead to deformation folding. To address these issues, in this work, we proposed LDM-Morph, an

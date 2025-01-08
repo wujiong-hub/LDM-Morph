@@ -6,6 +6,7 @@ nibabel
 natsort==8.4.0
 pystrum==0.4
 test-tube>=0.7.5
+timm==1.0.12
 
 -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 

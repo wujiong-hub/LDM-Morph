@@ -6,10 +6,8 @@ Enjoy the code and find its convenience to produce more awesome works!
 
 # LDM-Morph
 
-## Description
-
 This repository contains the code and resources for the paper:  
-**[Paper Title](https://arxiv.org/abs/arxiv_id)**  
+**[is the official implementation of LDM-Morph: Latent diffusion model guided deformable image registration](https://arxiv.org/pdf/2411.15426)**  
 *Authors: Your Name(s)*
 
 > *Published on arXiv: YYYY-MM-DD*  

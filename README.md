@@ -23,5 +23,5 @@ This repository is the official implementation for the paper:
 
 - conda create -n ldmmorph python=3.8
 - conda activate ldmmorph
-- conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch
+- conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
 

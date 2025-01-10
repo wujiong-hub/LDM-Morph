@@ -24,4 +24,5 @@ This repository is the official implementation for the paper:
 - conda create -n ldmmorph python=3.8
 - conda activate ldmmorph
 - pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+- pip install -r requirements.txt
 

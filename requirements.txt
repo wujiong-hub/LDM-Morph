@@ -8,13 +8,5 @@ pystrum==0.4
 test-tube>=0.7.5
 timm==1.0.12
 ml_collections==0.1.1
-
 -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
 
-streamlit>=0.73.1
-einops==0.3.0
-torch-fidelity==0.3.0
-transformers==4.3.1
-albumentations
--e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
--e git+https://github.com/openai/CLIP.git@main#egg=clip

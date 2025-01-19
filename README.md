@@ -60,7 +60,7 @@ This repository is the official implementation for the paper:
 
 ## Testing
 
-
+## Citation
 If you find this repository useful, please consider citing this paper:
 ```
 @article{wu2024ldm,

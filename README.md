@@ -35,6 +35,7 @@ This repository is the official implementation for the paper:
 1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
 2. Run the main script:
    ```python
+   cd datasets/scripts/
    python preprocessing_camus.py
    python preprocessing_echo.py
    python preprocessing_acdc.py

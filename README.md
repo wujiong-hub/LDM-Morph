@@ -58,7 +58,10 @@ This repository is the official implementation for the paper:
    mkdir ../ECHO/prep/
    python preprocess_echo.py
    ```
-3. Train the registration network
+2. Train the registration network
+
+## Testing
+
 
 
 

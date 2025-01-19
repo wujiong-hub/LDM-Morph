@@ -33,16 +33,7 @@ This repository is the official implementation for the paper:
 
 ## Datasets preprocessing
 1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
-├── data/
-│   ├── camus/
-│   │   ├── 2ch/
-│   │   ├── 4ch/
-│   ├── echonet/
-│   │   ├── videos/
-│   ├── acdc/
-│       ├── images/
-│       ├── labels/
-  
+datasets/ ├── dataset_name/ │ ├── train/ │ │ ├── images/ │ │ │ ├── img1.png │ │ │ ├── img2.png │ │ │ └── ... │ │ ├── labels/ │ │ │ ├── label1.png │ │ │ ├── label2.png │ │ │ └── ... │ ├── val/ │ │ ├── images/ │ │ ├── labels/ │ └── test/ │ ├── images/ │ ├── labels/ └── README.md # Dataset-specific instructions
        
 3. 
 

@@ -34,12 +34,21 @@ This repository is the official implementation for the paper:
 ## Datasets preprocessing
 1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
 
-- **train/images/**: Contains training images.
-- **train/labels/**: Contains corresponding labels for the training images.
-- **val/images/**: Contains validation images.
-- **val/labels/**: Contains corresponding labels for the validation images.
-- **test/images/**: Contains test images.
-- **test/labels/**: Contains corresponding labels for the test images.
+project-name/
+│
+├── dir1/
+│   ├── file1.ext
+│   └── file2.ext
+│
+├── dir2/
+│   ├── sub-dir1/
+│   │   └── file3.ext
+│   └── sub-dir2/
+│
+└── dir3/
+    ├── file4.ext
+    └── file5.ext
+
 
 ---
        

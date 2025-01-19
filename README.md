@@ -55,11 +55,11 @@ This repository is the official implementation for the paper:
 1. Train the LDM-based latent feature extraction module
    Firstly, the autoencoder should be trained by running the following script:
    ```python
-   python main.py --base configs/autoencoder/autoencoder_acdc_vq16.yaml --train --gpus 0,1,2,3,4,5,6,7
+   python main.py --base configs/autoencoder/autoencoder_camus_vq16.yaml --train --gpus 0,1,2,3,4,5,6,7
    ```
    Then, we train the diffusion model
    ```python
-   python main.py --base configs/autoencoder/autoencoder_acdc_vq16.yaml --train --gpus 0,1,2,3,4,5,6,7
+   python main.py --base configs/latent-diffusion/casmus-ldm-vq16-64ch.yaml --train --gpus 0,1,2,3,4,5,6,7
    ```
 3. Train the registration network
 

@@ -72,6 +72,13 @@ The dataloader file is ldm/data/camus.py. Change the corresponding training/vali
    python test.py
 ```
 
+## Acknowledgement
+
+Some of the codes in this repo are borrowed from:
+- [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion)
+- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer)
+- [Transmatch](https://github.com/tzayuan/TransMatch_TMI)
+
 ## Citation
 If you find this repository useful, please consider citing this paper:
 ```

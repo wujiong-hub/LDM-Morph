@@ -36,9 +36,9 @@ This repository is the official implementation for the paper:
 2. Run the main script:
    ```python
    python preprocessing_camus.py
-   ```
    python preprocessing_echo.py
    python preprocessing_acdc.py
+   ```
 4. 
 
 

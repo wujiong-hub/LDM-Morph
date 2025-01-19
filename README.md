@@ -63,10 +63,13 @@ This repository is the official implementation for the paper:
    ```
 3. Train the registration network
    ```python
-   python main.py --base configs/latent-diffusion/casmus-ldm-vq16-64ch.yaml --train --gpus 0,1,2,3,4,5,6,7
+   python train.py
    ```
 
 ## Testing
+```python
+   python test.py
+```
 
 ## Citation
 If you find this repository useful, please consider citing this paper:

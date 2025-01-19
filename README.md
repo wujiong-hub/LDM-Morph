@@ -33,22 +33,15 @@ This repository is the official implementation for the paper:
 
 ## Datasets preprocessing
 1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
-   1. datasets/CAMUS/
-      database_nifti/
-         patient0001/
-             ...
-             patient0001_2CH_ED_gt.nii.gz
-             patient0001_2CH_ED.nii.gz
-             ...
-             patient0001_4CH_ED_gt.nii.gz
-             patient0001_4CH_ED.nii.gz
-         ...
-   2. datasets/EchoNet-Dynamic
-          Videos/
-              ...
-          dynamic/
-              ...
-   3. datasets/
+├── data/
+│   ├── camus/
+│   │   ├── 2ch/
+│   │   ├── 4ch/
+│   ├── echonet/
+│   │   ├── videos/
+│   ├── acdc/
+│       ├── images/
+│       ├── labels/
   
        
 3. 

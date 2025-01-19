@@ -52,7 +52,7 @@ This repository is the official implementation for the paper:
    python preprocess_acdc.py
    ```
 ## Training 
-The dataloader file is under the directory of ldm/ 
+The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. 
 1. Train the LDM-based latent feature extraction module
    Firstly, the autoencoder should be trained by running the following script:
    ```python

@@ -32,8 +32,26 @@ This repository is the official implementation for the paper:
 - [Automated Cardiac Diagnosis Challenge (ACDC) dataset](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb)
 
 ## Datasets preprocessing
-1. Download all datasets, unzip them, and put them into the datasets folder
-2. 
+1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
+   1. datasets/CAMUS/
+      database_nifti/
+         patient0001/
+             ...
+             patient0001_2CH_ED_gt.nii.gz
+             patient0001_2CH_ED.nii.gz
+             ...
+             patient0001_4CH_ED_gt.nii.gz
+             patient0001_4CH_ED.nii.gz
+         ...
+   2. datasets/EchoNet-Dynamic
+          Videos/
+              ...
+          dynamic/
+              ...
+   3. datasets/
+  
+       
+3. 
 
 
 

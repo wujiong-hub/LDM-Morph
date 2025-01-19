@@ -51,7 +51,14 @@ This repository is the official implementation for the paper:
    mkdir ../ACDC/prep/
    python preprocess_acdc.py
    ```
-4. 
+## Training 
+1. Train the LDM-based latent feature extraction module
+   ```python
+   cd datasets/script/
+   mkdir ../ECHO/prep/
+   python preprocess_echo.py
+   ```
+3. Train the registration network
 
 
 

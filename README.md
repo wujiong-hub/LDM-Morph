@@ -26,3 +26,5 @@ This repository is the official implementation for the paper:
 - pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
 - pip install -r requirements.txt
 
+## Datasets
+- CAMUS dataset, including two-chamber (CAMUS-2CH) and four-chamber (CAMUS-4CH) images (https://humanheart-project.creatis.insa-lyon.fr/database/#collection/6373703d73e9f0047faa1bc8/folder/63fde55f73e9f004868fb7ac)

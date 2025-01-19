@@ -41,7 +41,6 @@ This repository is the official implementation for the paper:
    For the ECHO dataset, please get the github codes of echonet from the link https://github.com/echonet/dynamic, and install its environment. Then run the main script:
    ```python
    python preprocessing_echo.py
-   python preprocessing_acdc.py
    ```
 4. 
 

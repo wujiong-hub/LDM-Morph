@@ -54,14 +54,22 @@ This repository is the official implementation for the paper:
 ## Training 
 1. Train the LDM-based latent feature extraction module
    ```python
-   cd datasets/script/
-   mkdir ../ECHO/prep/
-   python preprocess_echo.py
+   python main.py
    ```
 2. Train the registration network
 
 ## Testing
 
+
+If you find this repository useful, please consider citing this paper:
+```
+@article{wu2024ldm,
+  title={LDM-Morph: Latent diffusion model guided deformable image registration},
+  author={Wu, Jiong and Gong, Kuang},
+  journal={arXiv preprint arXiv:2411.15426},
+  year={2024}
+}
+```
 
 
 

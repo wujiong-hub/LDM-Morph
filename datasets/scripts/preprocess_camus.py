@@ -74,7 +74,7 @@ for i in range(len(all2ched)):
     ched4, ched4_gt = scale(all4ched[i], all4ched_gt[i])
     ches4, ches4_gt = scale(all4ches[i], all4ches_gt[i])
 
-    # to show the preprocess camus images
+    # to show the preprocessed camus images
     '''
     if i==10:
         imgshow(ches2, ches2_gt)

@@ -33,10 +33,13 @@ This repository is the official implementation for the paper:
 
 ## Datasets preprocessing
 1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
-2. Run the main script:
+2. For the CAMUS dataset, directly run the main script:
    ```python
    cd datasets/scripts/
    python preprocessing_camus.py
+   ```
+   For the ECHO dataset, please get the github codes of echonet from the link https://github.com/echonet/dynamic, and install its environment. Then run the main script:
+   ```python
    python preprocessing_echo.py
    python preprocessing_acdc.py
    ```

@@ -36,16 +36,19 @@ This repository is the official implementation for the paper:
 2. For the CAMUS dataset, directly run the script:
    ```python
    cd datasets/scripts/
+   mkdir ../CAMUS/prep/
    python preprocess_camus.py
    ```
    For the ECHO dataset, please get the github codes of echonet from the link https://github.com/echonet/dynamic, and install its environment. Then run the script:
    ```python
    cd datasets/script/
+   mkdir ../ECHO/prep/
    python preprocess_echo.py
    ```
    For the ACDC dataset, directly run the script:
    ```python
    cd datasets/script/
+   mkdir ../ACDC/prep/
    python preprocess_acdc.py
    ```
 4. 

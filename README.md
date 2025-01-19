@@ -58,7 +58,7 @@ The dataloader file is ldm/data/camus.py. Change the corresponding training/vali
    ```python
    python main.py --base configs/autoencoder/autoencoder_camus_vq16.yaml --train --gpus 0,1,2,3,4,5,6,7
    ```
-   Then, we train the diffusion model
+   Then, we train the diffusion model. Specify the file path of "ckpt_path" under the "first_stage_config". 
    ```python
    python main.py --base configs/latent-diffusion/casmus-ldm-vq16-64ch.yaml --train --gpus 0,1,2,3,4,5,6,7
    ```

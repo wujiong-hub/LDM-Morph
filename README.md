@@ -32,7 +32,7 @@ This repository is the official implementation for the paper:
 - [Automated Cardiac Diagnosis Challenge (ACDC) dataset](https://humanheart-project.creatis.insa-lyon.fr/database/#collection/637218c173e9f0047faa00fb)
 
 ## Datasets preprocessing
-1. Download all datasets, unzip them, and put them inside the datasets folder. The dataset paths should be formatted as follows:
+1. Download all datasets, unzip them, and put them inside the corresponding datasets folder.
 2. For the CAMUS dataset, directly run the script:
    ```python
    cd datasets/scripts/

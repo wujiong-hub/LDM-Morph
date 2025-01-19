@@ -74,12 +74,14 @@ for i in range(len(all2ched)):
     ched4, ched4_gt = scale(all4ched[i], all4ched_gt[i])
     ches4, ches4_gt = scale(all4ches[i], all4ches_gt[i])
 
+    # to show the preprocess camus images
+    '''
     if i==10:
         imgshow(ches2, ches2_gt)
         imgshow(ched2, ched2_gt)
         imgshow(ches4, ches4_gt)
         imgshow(ched4, ched4_gt)
-
+    '''
     np.savez(os.path.join('../CAMUS/prep/',savename2ch), ES_img=ches2, ES_lab=ches2_gt, \
                                                     ED_img=ched2, ED_lab=ched2_gt)
     np.savez(os.path.join('../CAMUS/prep/',savename4ch), ES_img=ches4, ES_lab=ches4_gt, \

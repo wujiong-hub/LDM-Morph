@@ -52,7 +52,7 @@ This repository is the official implementation for the paper:
    python preprocess_acdc.py
    ```
 ## Training 
-The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. 
+The dataloader file is ldm/data/camus.py. Change the corresponding training/validation path for each dataset to start training. For more details, please refer to the [Latent Diffusion Model(LDM)](https://github.com/CompVis/latent-diffusion).
 1. Train the LDM-based latent feature extraction module
    Firstly, the autoencoder should be trained by running the following script:
    ```python

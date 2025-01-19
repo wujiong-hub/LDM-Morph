@@ -44,15 +44,15 @@ def imgshow(resampled_org, resampled_gt):
     plt.show()
 
 
-all2ched = glob.glob('../database_nifti/patient*/patient*_2CH_ED.nii.gz')
-all2ches = glob.glob('../database_nifti/patient*/patient*_2CH_ES.nii.gz')
-all4ched = glob.glob('../database_nifti/patient*/patient*_4CH_ED.nii.gz')
-all4ches = glob.glob('../database_nifti/patient*/patient*_4CH_ES.nii.gz')
+all2ched = glob.glob('../CAMUS/database_nifti/patient*/patient*_2CH_ED.nii.gz')
+all2ches = glob.glob('../CAMUS/database_nifti/patient*/patient*_2CH_ES.nii.gz')
+all4ched = glob.glob('../CAMUS/database_nifti/patient*/patient*_4CH_ED.nii.gz')
+all4ches = glob.glob('../CAMUS/database_nifti/patient*/patient*_4CH_ES.nii.gz')
 
-all2ched_gt = glob.glob('../database_nifti/patient*/patient*_2CH_ED_gt.nii.gz')
-all2ches_gt = glob.glob('../database_nifti/patient*/patient*_2CH_ES_gt.nii.gz')
-all4ched_gt = glob.glob('../database_nifti/patient*/patient*_4CH_ED_gt.nii.gz')
-all4ches_gt = glob.glob('../database_nifti/patient*/patient*_4CH_ES_gt.nii.gz')
+all2ched_gt = glob.glob('../CAMUS/database_nifti/patient*/patient*_2CH_ED_gt.nii.gz')
+all2ches_gt = glob.glob('../CAMUS/database_nifti/patient*/patient*_2CH_ES_gt.nii.gz')
+all4ched_gt = glob.glob('../CAMUS/database_nifti/patient*/patient*_4CH_ED_gt.nii.gz')
+all4ches_gt = glob.glob('../CAMUS/database_nifti/patient*/patient*_4CH_ES_gt.nii.gz')
 
 all2ched.sort()
 all2ches.sort()
@@ -80,7 +80,7 @@ for i in range(len(all2ched)):
         imgshow(ches4, ches4_gt)
         imgshow(ched4, ched4_gt)
 
-    np.savez(os.path.join('../CAMUS/',savename2ch), ES_img=ches2, ES_lab=ches2_gt, \
+    np.savez(os.path.join('../CAMUS/prep/',savename2ch), ES_img=ches2, ES_lab=ches2_gt, \
                                                     ED_img=ched2, ED_lab=ched2_gt)
-    np.savez(os.path.join('../CAMUS/',savename4ch), ES_img=ches4, ES_lab=ches4_gt, \
+    np.savez(os.path.join('../CAMUS/prep/',savename4ch), ES_img=ches4, ES_lab=ches4_gt, \
                                                     ED_img=ched4, ED_lab=ched4_gt)
